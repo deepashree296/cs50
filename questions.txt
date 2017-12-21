@@ -1,0 +1,12 @@
+1.  stdint.h is the header file which declares integer types having specific number of bits.
+2.  In a file, exact number of bytes has to be stored so that it is knowm byte at which location means what
+3.  BYTE:1   DWORD:4  LONG:4    WORD:2
+4.  hexadecimal
+5.  bfsize: FILEHEADER, bisizze: INFOHEADER
+6.  inverted image
+7.  biBitCount
+8.  if the file doesnt exist
+9.  There is only one struct which is getting read
+10. 3
+11. fseek: move file pointer
+12. SEEK_CUR: offset from current file location
