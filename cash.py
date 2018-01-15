@@ -27,7 +27,7 @@ def change_owed(cents):
     count = cents // den
     total += count
     # calculating the remain cents
-    cents = cents - (count * den)
+    cents = cents % den
     # calling function recursively
     return change_owed(cents)
 
